@@ -1,0 +1,42 @@
+fieldset{
+    border: solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+     margin: 20px 100px;
+}
+div{
+    text-align: center; 
+    background-color: black;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+h1::after,h1::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: white;
+    top: 0.4cm;
+}
+h1::before{
+    left: -140px;
+}
+h1::after{
+    right: -140px;
+    }
+.siguiente{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inicio{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}

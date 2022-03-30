@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Formulario</title>
+    <style>
+        body {
+            margin: 20px 100px;
+            background-color: darkseagreen;
+        }
+    </style>
+</head>
+<body style="margin: 20px 100px; background-color:darkseagreen;"> 
+    <h1>Mi Primer Formulario</h1>
+    <a href="./mywebsite2419805/index.html"> Inicio</a>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis voluptatem, ipsum libero veniam consequatur nam porro laborum, quam, temporibus deleniti recusandae est rem nisi delectus saepe nobis laudantium ullam mollitia.
+        <form action="">
+         <fieldset>
+             <legend>Datos Personales</legend>  
+             
+             <label for="myname">Nombres</label>
+             <input type="text" id="myname" size="16">
+
+             <label for="Mysurname">Apellidos</label>
+             <input type="text" id="mysurname" size="16" placeholder="Escriba sus apellidos"><br>
+             
+             <label for="doctype">tipo de Documento</label>
+             <select id="doctype">
+                  <option value="">Registro Civil</option>
+                  <option value="">Tarjeta de identidad</option>
+                  <option value="">cedula de ciudadania</option>
+                  <option value="">NUIP</option>
+                  <option value="">cedula de extranjeria</option>
+             </select>
+             <label for="mydocid">Numero de Identificación</label>
+             <input type="text" id="mydocid" size="10"><br>
+              
+             <label for="mybirthdate">Fecha de Nacimiento</label>
+             <input type="date" id="mybirthdate">
+
+             <label for="myage">Edad</label>
+             <input type="number" id="myage" min="0" max="100">
+         </fieldset>
+         <fieldset> 
+             <legend>Cuestionario</legend>
+            <ol>
+                <li>
+                    <p>Indique su jornada de estudios</p>
+                     <input type="radio" id="morning" name="myjourney">
+                     <label for="morning">Mañana</label>
+
+                     <input type="radio" id="afternoon" name="myjourney">
+                     <label for="afternoon">Tarde</label>
+                     
+                     <input type="radio" id="night" name="myjourney">
+                     <label for="night">Noche</label>
+                 
+                </li> 
+                <li>(Selecciión Multiple Respuesta) Indique las competencias que ve en el trimestre: <br>
+                     <input type="checkbox" id="comp1" name="comp1">
+                     <label for="">Diagramas UML</label><br>
+
+                     <input type="checkbox" id="comp2" name="comp1">
+                     <label for="">Desarrollo web</label><br>
+
+                     <input type="checkbox" id="comp3" name="comp1">
+                     <label for="">Programacion en python</label><br>
+
+                     <input type="checkbox" id="comp4" name="comp1">
+                     <label for="">Algoritmos</label><br>
+                     
+                     <input type="checkbox" id="comp5" name="comp1">
+                     <label for="">Pruebas</label><br>
+            
+                </li>
+            </ol>       
+
+         <fieldset>
+
+         </fieldset>
+              <legend>Cuenta</legend>
+         <fieldset>
+         </form>                  
+    
+</body>
+</html>
