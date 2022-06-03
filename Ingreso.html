@@ -1,51 +1,33 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingreso</title>
-    <link rel="stylesheet" href="./Ingreso.css">
-    <link rel="shortcut icon" href="Imagenes/FAVICÓN.png">
+    <link rel="stylesheet" href="Ingreso.css">
+    <title>Document</title>
 </head>
+<body>
+    <div class="Inicio-Sesión">
+        <h1>Inicie Sesión</h1>
+        <form method="post">
 
-<body bgcolor="#7c7e82">
-    <a class="inicio" href="./My Happy Pet.html"> Inicio</a>
-  <header>
-  ¡My Happy Pet!
-  </header>
+            <div class="Usuario">
+            <input type="text" required>
+            <label>Nombre de Usuario</label>
+            </div>
 
-<div>
-  <h2>Hacemos de paseos momentos magicos</h2>
-</div>
+            <div class="Contraseña">
+                <input type="password" required>
+                <label>Contraseña</label>
+            </div>
+            <div class="recordar">Olvide mi Contraseña</div>
+            <input type="submit" value="Iniciar">
+            <div class="Registrarse">
+                <a href="#">Reagistrarme</a>
+            </div>
 
-    <aside>
-<h3 >Registrate o inicia sesion</h3>
-   <form action="Tematica.html">
-    <fieldset>
-        <legend>Datos Personales</legend><br>
-        
-        <label for="myname">Nombres</label>
-        <input type="text" id="myname" size="16" placeholder="Escriba su Nombre"><br><br>
-        
-        <label for="Mysurname">Apellidos</label>
-        <input type="text" id="mysurname" size="16" placeholder="Escriba sus apellidos"><br><br>
-        <!-- REGISTRO DE CONTRASEÑA -->
-        <label for="password">Contraseña</label>
-        <input type="password" size="15"placeholder="Ingrese Contraseña"><br><br>
-        <form ACTION="Tematica.html" METHOD="POST">
-        <input type="submit" value="ingresar">
-        </form><br><br>
-        <a href="#">Olvidaste tu contraseña?</a><br>
-        <a href="Usuario.html">No tienes cuenta?</a>
-    </aside>
-
-<main>
-  <img src="Imagenes/perro.jpg" class="fondo"alt="menu fondo">
-  <p class="pie">Deja que tus mascotas disfuten al aire libre, mientras tu estes ocupado</p>
-</main>
-
-</article>
+        </form>
+    </div>
 </body>
 </html>
